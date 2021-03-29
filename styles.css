@@ -49,7 +49,6 @@ hr{
 
 .secondary-link:hover{
     background-color: white;
-    
 }
 
 /* List */
@@ -67,7 +66,7 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1.2rem;
+    border-bottom-left-radius: 1rem;
 }
 .navigation .link{
     color: white;
@@ -88,6 +87,7 @@ hr{
  
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img{
