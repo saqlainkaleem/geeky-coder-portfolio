@@ -8,3 +8,5 @@ This is a website created using HTML5, CSS3 and JavaScript.
 <h3>Any Project you want me a part of ?</h3>
 
 - 👀 Ping me on  [Twitter](https://www.twitter.com/saqlainkaleem)
+
+- 💌 <a href="mailto: mksaqlaini@outlook.com">@mksaqlaini@outlook.com</a> 
