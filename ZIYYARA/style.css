@@ -294,7 +294,7 @@ footer ul {
 
 
   /*Responsive  */
-@media all and (max-width: 480px){
+@media all and (max-width: 800px){
   .menu{
         display: block;
         position: absolute;
