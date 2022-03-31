@@ -296,7 +296,7 @@ footer ul {
 
 
   /*Responsive  */
-@media all and (max-width: 480px){
+@media all and (max-width: 500px){
   .menu{
         display: block;
         position: absolute;
@@ -330,13 +330,21 @@ footer ul {
     #carousel-slider {
       padding-top: 62px;
     }
+/*     
+    .cards{
+      font-size: 16px;
+      padding: 2em 4em;
+      display: flex;
+      justify-content: space-around;
+      gap: 1em;
     
-
+    } */
     .cards {
         /* On small screens, we are no longer using row direction but column */
         flex-direction: column;
         justify-content: center;
-        margin: 1rem;
+        padding: 5%;
+        /* width: 100%; */
       }
      
       #slider{
@@ -344,12 +352,16 @@ footer ul {
       }
       .slider-box{
         z-index: -1;
+        overflow: hidden;
+        /* gap: 1em; */
+        margin: 2px;
+      }
+      #slider .card{
+        width: 100%;
+        overflow: hidden;
+        margin-right: 0;
       }
       
-	#slider .card{
-        width: 100%;
-      }
-	
       footer {
         padding: 2em;
         flex-direction: column;
@@ -357,12 +369,10 @@ footer ul {
 }
 
 @media all and (max-width: 320px){
-#slider .card{
-  width: 100%;
+#slider{
+  width:500% ;
 }
 }
-
-
 
 
 
