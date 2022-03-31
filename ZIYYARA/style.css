@@ -118,7 +118,6 @@ margin-left: auto;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: 15%;
   bottom: 0;
 }
 .card img{
