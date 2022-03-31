@@ -340,10 +340,6 @@ footer ul {
       .cards card{
         padding: 1rem;
       }
-      #slider{
-        flex-direction: column;
-        justify-content: center;
-      }
       footer {
         padding: 2em;
         flex-direction: column;
