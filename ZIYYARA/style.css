@@ -392,6 +392,8 @@ footer ul {
   transition: 0.7s;
   overflow: hidden;
   justify-content: space-between;
+	  gap: 1em;
+
 }
 
 .slides{
