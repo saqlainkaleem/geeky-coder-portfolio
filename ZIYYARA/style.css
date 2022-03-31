@@ -344,16 +344,6 @@ footer ul {
         flex-direction: column;
         justify-content: center;
       }
-      .slider-box{
-        z-index: -1;
-      }
-      .indicators{
-        visibility: hidden;
-      }
-      #slider .card{
-        flex-direction: column;
-        padding: 1rem;
-      }
       footer {
         padding: 2em;
         flex-direction: column;
