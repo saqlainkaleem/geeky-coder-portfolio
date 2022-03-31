@@ -340,14 +340,14 @@ footer ul {
       }
      
       #slider{
-      width: max-content;  
+      width: 500%;  
       }
       .slider-box{
         z-index: -1;
       }
       
 	#slider .card{
-        width: 27rem;
+        width: 100%;
       }
 	
       footer {
@@ -358,7 +358,7 @@ footer ul {
 
 @media all and (max-width: 320px){
 #slider .card{
-  width: 18rem;
+  width: 100%;
 }
 }
 
