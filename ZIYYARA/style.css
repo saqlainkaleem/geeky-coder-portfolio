@@ -25,11 +25,11 @@
     color: var(--color);
     display: flex;
     justify-content: space-around;
-    position: sticky;
+    position: fixed;
     padding: 20px 30px;
     align-items: center;
     font-size: 20px;
-	z-index:9999;
+    z-index: 9999;
 }
 .unorderlist{
 list-style: none;
@@ -338,9 +338,14 @@ footer ul {
         justify-content: center;
         padding: 2rem;
       }
-      .cards card{
-        padding: 1rem;
+     
+      #slider{
+      width: max-content;  
       }
+      .slider-box{
+        z-index: -1;
+      }
+      
       footer {
         padding: 2em;
         flex-direction: column;
@@ -357,9 +362,10 @@ footer ul {
 
 .slider-box {
   width     : 90%;
-  position  : relative;
+  /* position  : relative; */
   overflow  : hidden;
   margin    : 30px auto;
+  /* z-index: -1; */
 }
 
 #slider {
@@ -367,6 +373,13 @@ footer ul {
   transition: 0.7s;
   overflow: hidden;
   justify-content: space-between;
+}
+
+.slides{
+  display:flex;
+  /* z-index: -1; */
+  overflow: hidden;
+  position: sticky;
 }
 
 #slider card {
