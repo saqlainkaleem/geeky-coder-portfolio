@@ -336,7 +336,7 @@ footer ul {
         /* On small screens, we are no longer using row direction but column */
         flex-direction: column;
         justify-content: center;
-        padding: 2rem;
+        margin: 1rem;
       }
      
       #slider{
